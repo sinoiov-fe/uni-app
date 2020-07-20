@@ -13,10 +13,11 @@ module.exports = {
         // 你的全局变量（设置为 false 表示它不允许被重新赋值）
         //
         // myGlobal: false
+        uni: true
     },
     plugins: ['prettier'],
     parserOptions: {
-        parser: 'babel-eslint',
+        parser: 'babel-eslint'
     },
     rules: {
         // 自定义你的规则
@@ -255,4 +256,4 @@ module.exports = {
         'key-spacing': 0,
         'no-multiple-empty-lines': 0
     }
-};
+}

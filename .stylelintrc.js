@@ -14,4 +14,4 @@ module.exports = {
         // 不能用important
         'declaration-no-important': true
     }
-};
+}

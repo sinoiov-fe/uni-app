@@ -13,3 +13,8 @@
 # 通过反取忽略目录
 /src/component/*
 /src/libs/*
+
+.prettierrc.js
+.prettierignore
+.stylelintrc.js
+babel.config.js
