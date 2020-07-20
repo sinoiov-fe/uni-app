@@ -1,0 +1,56 @@
+{
+    "pages" : [
+        //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        // #ifdef MP-WEIXIN
+      
+        // #endif
+        {
+            "path" : "pages/home/index",
+            "style" : {
+                "navigationBarTitleText" : "首页",
+                "enablePullDownRefresh" : false,
+                "app-plus" : {
+                    "titleNView" : false
+                }
+            }
+        }
+    ],
+    "subPackages" : [
+        {
+            "root" : "subPackagesA/",
+            "pages" : [
+                {
+                    "path" : "pages/home/index",
+                    "style" : {
+                        "navigationBarTitleText" : "分包A",
+                        "enablePullDownRefresh" : false,
+                        "app-plus" : {
+                            "titleNView" : false
+                        }
+						
+                    }
+                }
+            ]
+        }
+    ],
+    "globalStyle" : {
+        "navigationBarTextStyle" : "black",
+        "navigationBarTitleText" : "",
+        "navigationBarBackgroundColor" : "#F8F8F8",
+        "backgroundColor" : "#F8F8F8"
+    },
+    "tabBar" : {
+        "color" : "#444444",
+        "selectedColor" : "#187efa",
+        "borderStyle" : "black",
+        "backgroundColor" : "#ffffff",
+        "list" : [
+            {
+                "pagePath" : "pages/home/index",
+                "iconPath" : "assets/img/homeIcon.png",
+                "selectedIconPath" : "assets/img/homeIconSelect.png",
+                "text" : "首页"
+            }
+        ]
+    }
+}
