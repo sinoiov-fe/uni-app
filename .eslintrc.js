@@ -29,6 +29,7 @@ module.exports = {
                 allow: ['warn', 'error']
             }
         ],
+        'no-param-reassign': 0,
         'no-eval': 'error',
         'no-alert': 'error',
         'vue/max-attributes-per-line': [
