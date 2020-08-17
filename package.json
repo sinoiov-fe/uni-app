@@ -84,7 +84,7 @@
         "postcss-comment": "^2.0.0",
         "prettier": "^2.0.5",
         "sass": "^1.26.10",
-        "sass-loader": "^9.0.2",
+        "sass-loader": "^8.0.2",
         "stylelint": "^13.6.1",
         "stylelint-config-airbnb": "^0.0.0",
         "stylelint-config-prettier": "^8.0.2",
